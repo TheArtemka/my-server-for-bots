@@ -79,11 +79,15 @@ async def about_cmd(message: types.Message):
     text = (
         "<b>О Заведении🏙:</b>\n"
         "📍 <b>Адрес:</b> Шелепиховская набережная, 16, Москва\n"
-        "📌 <a href='https://yandex.com/maps/?ol=geo&text=Shelepikhinskaya%20Embankment,%2016&sll=37.519404,55.755211&sspn=0.004630,0.008211&si=jj52vfgrefq7hgetjcqbw6fyp8'>"
+        "🔴 <a href='https://yandex.com/maps/?ol=geo&text=Shelepikhinskaya%20Embankment,%2016&sll=37.519404,55.755211&sspn=0.004630,0.008211&si=jj52vfgrefq7hgetjcqbw6fyp8'>"
         "Открыть на Яндекс.Картах</a>\n"
         "<b>ИЛИ:</b>\n"
-        "🗺 <a href='https://maps.app.goo.gl/6M6GkVQV81ayHb3B9'>"
-        "Открыть на Гугл.Картах</a>"
+        "🟠 <a href='https://maps.app.goo.gl/6M6GkVQV81ayHb3B9'>"
+        "Открыть на Google.Maps</a>\n"
+        "                                -\n"
+        "<b>Маршрут по видео🗺:</b>\n"
+        "📹 <a href='https://drive.google.com/file/d/1UZlGYbedSB8TlhUyCi1kfKU8CUjfJh2m/view?usp=drivesdk'>"
+        "Смотреть видео</a>"
     )
     await message.answer(text, parse_mode="HTML")
 
